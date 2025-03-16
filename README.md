@@ -20,11 +20,11 @@ Here are some of the projects I've worked on:
 ### 1. [TV Shows Project]
 This project analyzes a dataset of TV shows, allowing users to explore and retrieve specific information about each show's rating, release year, and score. The program provides a menu-driven interface to guide users through various data exploration options.
 
-### 2. [Sports Car Analysis]
+### 2. [Sports Car Analysis Project]
 This project analyzes a dataset of sports cars to determine the best value for money. It explores relationships between price, performance metrics, and other factors to answer the question: **"What is the best sports car for your money?"**
 
 
-### 3. [Rice Dataset]
+### 3. [Rice Dataset Project]
 This project analyzes a dataset used to differentiate between two different species of rice grains using several predictor variables. The project breaks down each variable and analyses them separaltey as well as how they correlate with each other.
 
 ---
