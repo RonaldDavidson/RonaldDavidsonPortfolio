@@ -1,0 +1,52 @@
+# TV Show Data Analyzer
+
+**Author**: Ronald Davidson  
+**Date**: December 13, 2022  
+**Description**: This Python project implements various algorithms to analyze and display information about TV shows based on user input. It includes exception handling to prevent runtime errors and provides a menu-driven interface for user interaction.
+
+---
+
+## Features
+- **Menu-Driven Interface**: Users can select from multiple options to analyze TV show data.
+- **Data Analysis**:
+  - Find shows by rating.
+  - Find the highest-rated show within a specified year range.
+  - Search for a show by title.
+  - Calculate the average score for shows with a specific rating.
+  - Find shows with a score higher than a given show.
+  - Sort and save data by year to a new file.
+- **Exception Handling**: Ensures robust input validation to prevent runtime errors.
+
+---
+
+## How It Works
+1. **Data Input**: The program reads TV show data from a file (e.g., CSV) containing columns for title, rating, year, and score.
+2. **User Interaction**: Users are prompted to select an option from the menu to perform specific analyses.
+3. **Output**: Results are displayed in a formatted table or written to a new file (for sorting).
+
+---
+
+## Code Structure
+- **`openFile()`**: Opens and validates the data file.
+- **`getData()`**: Reads data from the file and stores it in lists.
+- **`getChoice()`**: Displays the menu and handles user input.
+- **`correctChoice()`**: Validates user input for menu choices.
+- **`correctRating()`**: Validates user input for ratings.
+- **`getYear()`**: Validates user input for years.
+- **`findRightShows()`**: Filters shows within a specified year range.
+- **`printResults()`**: Displays results for a specific show.
+- **`averageScore()`**: Calculates the average score for a given rating.
+- **`getValidShow()`**: Validates user input for show titles.
+- **`getShowRating()`**: Retrieves the score for a specific show.
+- **`createIndexList()`**: Creates an index list for sorting.
+- **`dualSort()`**: Sorts data by year while maintaining list integrity.
+- **`writeData()`**: Writes sorted data to a new file.
+- **`main()`**: Executes the program and handles user interaction.
+
+---
+
+## Usage
+1. Ensure the data file (e.g., `shows.csv`) is in the same directory as the script.
+2. Run the script:
+   ```bash
+   python script_name.py
