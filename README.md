@@ -39,11 +39,4 @@ Here are some of the tools and technologies I work with:
 
 ---
 
-## How to Navigate This Repository
-- Each project has its own folder containing a detailed `README.md` file.
-- Click on the project links above to explore each project in detail.
-- Feel free to reach out if you have any questions or feedback!
-
----
-
 Thank you for visiting my repository! 😊
